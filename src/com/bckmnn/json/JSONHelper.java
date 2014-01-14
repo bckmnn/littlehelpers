@@ -25,7 +25,7 @@
  * @version     ##library.prettyVersion## (##library.version##)
  */
 
-package com.bckmnn.jsonhelper;
+package com.bckmnn.json;
 
 
 import java.util.ArrayList;
@@ -36,13 +36,14 @@ import processing.data.JSONObject;
 /**
  * This class provides static methods to quickly get specific values out of a JSONObject.
  * It might have problems with getting an array (specific array values should be fine).
+ * 
  * See the example for further information. 
  * 
  * @example JSONHelperExample
  *
  */
 
-public class JSONHelper {
+public abstract class JSONHelper {
 	
 	private static class WhatToGet {
 		public TYPE type;

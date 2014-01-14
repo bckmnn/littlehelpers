@@ -1,4 +1,4 @@
-import com.bckmnn.jsonhelper.*;
+import com.bckmnn.json.*;
 
 try{
   JSONObject j = loadJSONObject("http://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&sensor=true");
